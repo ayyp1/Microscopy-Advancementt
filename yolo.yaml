@@ -1,0 +1,6 @@
+# stool.yaml
+path: yolo_dataset/  # Absolute path to your dataset
+train: train/images          # Relative to 'path'
+val: val/images              # Relative to 'path'
+nc: 2                        # Number of classes
+names: ['Giardia', 'Cryptosporidium']  # Class names
